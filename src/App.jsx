@@ -1,23 +1,4 @@
-import { 
-  Instagram, 
-  Video, 
-  Palette, 
-  ArrowUpRight, 
-  TrendingUp, 
-  Layers, 
-  Eye, 
-  Sparkles, 
-  Plus, 
-  X, 
-  Play, 
-  Maximize2, 
-  ChevronRight,
-  Menu,
-  MousePointer2,
-  MoveUpRight,
-  Camera,
-  Clapperboard
-} from 'lucide-react';
+import * as Icons from 'lucide-react';
 
 const App = () => {
   const cursorRef = useRef(null);
