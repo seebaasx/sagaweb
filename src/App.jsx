@@ -1,6 +1,5 @@
 import { 
   Instagram, 
-  Linkedin, 
   Video, 
   Palette, 
   ArrowUpRight, 
