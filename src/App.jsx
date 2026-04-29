@@ -1,5 +1,10 @@
-import * as Icons from 'lucide-react';
-
+import React, { useState, useEffect, useRef } from 'react';
+const { 
+  Instagram, Video, Palette, ArrowUpRight, TrendingUp, 
+  Layers, Eye, Sparkles, Plus, X, Play, Maximize2, 
+  ChevronRight, Menu, MousePointer2, MoveUpRight, 
+  Camera, Clapperboard 
+} = Icons;
 const App = () => {
   const cursorRef = useRef(null);
   const [activeFilter, setActiveFilter] = useState('Todos');
